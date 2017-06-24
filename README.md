@@ -1,6 +1,6 @@
-# README.md -- Tim Currell GitHub
+## README.md -- Tim Currell GitHub
 
-## Introduction
+### Introduction
 
 This is the Git repository for my work studying various languages and platforms.
 
