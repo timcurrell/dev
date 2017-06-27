@@ -4,28 +4,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+	<title>Nested Function Calls</title>
 </head>
 
-<body>
+	<body>
 
-<script type="text/javascript">
-<!--
+		<script type="text/javascript">
+		<!--
 
-	function getValue(){
-		return("Beat it!");
-	}
-	
-	function callGetValue(){
-		var message = getValue();
-		return(message);
-	}
-	
-	var printThis = callGetValue();
-	document.write(printThis);
+			function getValue(){
+				return("Beat it!");
+			}
 
-//-->
-</script>
+			function callGetValue(){
+				var message = getValue();
+				return(message);
+			}
 
-</body>
+			var printThis = callGetValue();
+			document.write(printThis);
+
+		//-->
+		</script>
+
+	</body>
 
 </html>

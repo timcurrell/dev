@@ -1,0 +1,17 @@
+{
+  "name": "e-z-eyes-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Medium-gray low-glare theme",
+  "keywords": [
+    "eyes",
+    "gray",
+	"grey",
+    "syntax"
+  ],
+  "repository": "https://github.com/timcurrell/e-z-eyes-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
