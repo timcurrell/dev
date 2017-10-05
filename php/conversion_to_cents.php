@@ -39,15 +39,13 @@
         $amount_in_cents = "0";
     }
 
-//    return $amount_in_cents;
-
-    echo $amount . "|" . $amount_str . "|" . $decimal . "|" . $amount_in_cents . "|" . $message;
+    return $amount_in_cents;
 
     function test_input($data) {
         $data = trim($data);
         $data = stripslashes($data);
         $data = htmlspecialchars($data);
-
+        
         return $data;
     }
 
