@@ -1,0 +1,16 @@
+When you click "Sign In" it should, using AJAX, 
+call the Authenticate function on the Expensify API.
+Details follow:
+
+http://expensify.com/api.html
+
+partnerName: applicant
+partnerPassword: d7c3119c6cdab02d68d9
+partnerUserID: <email address>
+partnerUserSecret: <password>
+
+Feel free to test using this account (but read the value from the
+form, don't hard-code it):
+
+email: expensifytest@mailinator.com
+password: hire_me

@@ -1,0 +1,166 @@
+/* ===================================================================
+ *
+ *  main.css
+ *
+ *  Main Expensify CSS Stylesheet
+ *  09-24-2017
+ *  ------------------------------------------------------------------
+ *
+ *  Syntax "borrowed" from :
+ *
+ *  Khronos v1.0 Main Stylesheet
+ *  url: www.styleshout.com
+ *
+ * =================================================================== */
+
+ /* -------------------------------------------------------------------
+  * body
+  * ------------------------------------------------------------------- */
+
+ html {
+ 	font-size: 10px;
+ }
+
+ html, body {
+ 	height: 100%;
+ }
+
+ body {
+ 	background: #E9EEF7;
+ 	font-family: "verdana-regular", sans-serif;
+ 	font-size: 1.6rem;
+ 	line-height: 3rem;
+ 	color: #02276F;
+ }
+
+ header {
+	width: 100%;
+	text-align: center;
+	height: auto;
+	left: 0;
+	top: 0;
+	margin-bottom: 15px;
+}
+
+form {
+	display: block;
+	text-align: center;
+}
+
+ /* -------------------------------------------------------------------
+  * links
+  * ------------------------------------------------------------------- */
+
+ a, a:visited {
+ 	color: #0B3FA6;
+ }
+
+ a:hover, a:focus {
+ 	color: #477DEA;
+ }
+
+ /* -------------------------------------------------------------------
+  * spacing
+  * ------------------------------------------------------------------- */
+
+ button, .button {
+ 	margin-bottom: 1.2;
+ }
+
+ fieldset {
+ 	margin-bottom: 1.5rem;
+ }
+
+ input,
+ textarea,
+ select,
+ pre,
+ blockquote,
+ figure,
+ table,
+ form,
+ .fluid-video-wrapper,
+ .ss-custom-select {
+ 	margin-bottom: 3rem;
+ }
+
+ * -------------------------------------------------------------------
+ * forms
+ * ------------------------------------------------------------------- */
+
+ input[type="search"],
+ input[type="text"],
+ input[type="username"],
+ input[type="password"],
+ textarea,
+ select {
+ 	display: block;
+ 	height: 6rem;
+ 	padding: 1.5rem 2rem;
+ 	border: none;
+ 	outline: 1px;
+ 	text-align: center;
+ 	color: 02276F;
+ 	font-family: "verdana-regular", sans-serif;
+ 	font-size: 1.7rem;
+ 	line-height: 3rem;
+ 	max-width: 100%;
+ 	background: transparent;
+ }
+
+ textarea {
+ 	min-height: 25rem;
+ }
+
+ input[type="search"]:focus,
+ input[type="text"]:focus,
+ input[type="tel"]:focus,
+ input[type="password"]:focus,
+ textarea:focus,
+ select:focus {
+ 	color: #000000;
+ 	border-color: #034e4a;
+ }
+
+ label, legend {
+ 	font-family: "verdana-bold", sans-serif;
+ 	font-size: 1.6rem;
+ 	margin-bottom: .6rem;
+ 	color: black;
+ 	display: block;
+ }
+
+ label > .label-text {
+ 	display: inline-block;
+ 	margin-left: 1rem;
+ 	font-family: "verdana-regular", sans-serif;
+ 	line-height: inherit;
+ }
+
+ * -------------------------------------------------------------------
+ * buttons
+ * ------------------------------------------------------------------- */
+
+ .button,
+ a.button,
+ button,
+ input[type="submit"],
+ input[type="reset"],
+ input[type="button"] {
+ 	display: inline-block;
+ 	font-family: "verdana-regular", sans-serif;
+ 	font-size: 1.4rem;
+ 	text-transform: uppercase;
+ 	letter-spacing: .3rem;
+ 	height: 5.4rem;
+ 	line-height: 5.4rem;
+ 	padding: 0 3rem;
+ 	margin: 0 .3rem 1.2rem 0;
+ 	background: #d8d8d8;
+ 	color: #313131;
+ 	text-decoration: none;
+ 	cursor: pointer;
+ 	text-align: center;
+ 	white-space: nowrap;
+ 	border: none;
+ }
